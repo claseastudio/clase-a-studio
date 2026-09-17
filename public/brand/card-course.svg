@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" role="img">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141210"/>
+      <stop offset="1" stop-color="#1C1814"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g1)"/>
+  <circle cx="640" cy="120" r="180" fill="#C9A227" opacity="0.08"/>
+  <circle cx="120" cy="420" r="140" fill="#E8D5A3" opacity="0.05"/>
+  <rect x="48" y="48" width="120" height="2" fill="#C9A227"/>
+  <text x="48" y="100" font-family="Georgia, serif" font-size="36" fill="#F5F0E6">CURSO</text>
+  <text x="48" y="150" font-family="system-ui, sans-serif" font-size="18" fill="#C9A227" letter-spacing="3">CLASE A STUDIO</text>
+  <text x="48" y="420" font-family="system-ui, sans-serif" font-size="14" fill="#A89F8F">Método · Excelencia · Estándar</text>
+</svg>

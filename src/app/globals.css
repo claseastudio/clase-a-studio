@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0b0b;
+  --bg-elevated: #12100e;
+  --bg-card: #161310;
+  --cream: #f5f0e6;
+  --cream-soft: #e8e0d0;
+  --gold: #c9a227;
+  --gold-soft: #e8d5a3;
+  --muted: #a89f8f;
+  --muted-2: #6f675c;
+  --border: #2a241c;
+  --background: var(--bg);
+  --foreground: var(--cream);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-geist-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--cream);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.font-display {
+  font-family: var(--font-geist-sans), Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  color: var(--cream);
+}
+
+a {
+  text-underline-offset: 3px;
+}
