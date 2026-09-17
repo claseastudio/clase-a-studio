@@ -11,7 +11,7 @@ export const courses: Course[] = [
     duration: "6 semanas · acceso 12 meses",
     level: "Principiante a intermedio",
     featured: true,
-    accent: "#C9A227",
+    accent: "#1d1d1f",
     ejemplo: true,
     outcomes: [
       "Definir tu estándar de excelencia en cada entrega",
@@ -77,7 +77,7 @@ export const courses: Course[] = [
     duration: "8 semanas · acceso 12 meses",
     level: "Intermedio a avanzado",
     featured: true,
-    accent: "#E8D5A3",
+    accent: "#6e6e73",
     ejemplo: true,
     outcomes: [
       "Diseñar una oferta premium clara y defendible",
@@ -139,7 +139,7 @@ export const courses: Course[] = [
     duration: "1 jornada · grabación incluida",
     level: "Todos los niveles",
     featured: false,
-    accent: "#A68B2C",
+    accent: "#424245",
     ejemplo: true,
     outcomes: [
       "Definir criterios de calidad compartidos",

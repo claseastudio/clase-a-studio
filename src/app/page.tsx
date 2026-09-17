@@ -35,8 +35,8 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden border-b border-[var(--border)]">
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -right-20 top-10 h-72 w-72 rounded-full bg-[var(--gold)] opacity-[0.07] blur-3xl" />
-          <div className="absolute -left-10 bottom-0 h-64 w-64 rounded-full bg-[var(--cream)] opacity-[0.04] blur-3xl" />
+          <div className="absolute -right-20 top-10 h-72 w-72 rounded-full bg-[#86868b] opacity-[0.06] blur-3xl" />
+          <div className="absolute -left-10 bottom-0 h-64 w-64 rounded-full bg-[#d2d2d7] opacity-[0.35] blur-3xl" />
         </div>
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-20 sm:px-6 sm:py-28 lg:grid-cols-2">
           <div>
@@ -61,9 +61,9 @@ export default function HomePage() {
               Precios de ejemplo en COP · Contenido demostrativo
             </p>
           </div>
-          <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-3xl border border-[var(--border)] bg-black shadow-2xl shadow-black/40">
+          <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-3xl border border-[var(--border)] bg-[#f5f5f7] shadow-sm">
             <Image
-              src="/brand/logo-clase-a-studio.jpg"
+              src="/brand/logo-clase-a-studio-black.png"
               alt="CLASE A STUDIO"
               width={720}
               height={720}
@@ -85,7 +85,7 @@ export default function HomePage() {
           {VALUE_PROPS.map((item) => (
             <article
               key={item.title}
-              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] p-6"
+              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] p-6 shadow-sm"
             >
               <div className="mb-4 h-1 w-10 bg-[var(--gold)]" />
               <h3 className="font-display text-xl text-[var(--cream)]">{item.title}</h3>
@@ -141,7 +141,7 @@ export default function HomePage() {
           {PROOF.map((t) => (
             <blockquote
               key={t.name}
-              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] p-6"
+              className="rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] p-6 shadow-sm"
             >
               <p className="text-[var(--cream-soft)] leading-relaxed">“{t.quote}”</p>
               <footer className="mt-5 text-sm">

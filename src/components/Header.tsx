@@ -23,12 +23,12 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
           <Image
-            src="/brand/logo-clase-a-studio.jpg"
+            src="/brand/logo-clase-a-studio-black.png"
             alt="CLASE A STUDIO"
             width={48}
             height={48}
             priority
-            className="h-11 w-11 rounded-md object-contain bg-black"
+            className="h-11 w-11 rounded-md object-contain bg-[#f5f5f7]"
           />
           <span className="sr-only">CLASE A STUDIO</span>
         </Link>
@@ -67,7 +67,7 @@ export function Header() {
           </Link>
           <Link
             href="/cursos"
-            className="hidden rounded-full bg-[var(--gold)] px-4 py-2 text-sm font-semibold text-[var(--bg)] transition hover:bg-[var(--gold-soft)] sm:inline-flex"
+            className="hidden rounded-full bg-[var(--gold)] px-4 py-2 text-sm font-semibold text-[var(--bg)] transition hover:bg-[var(--cream-soft)] sm:inline-flex"
           >
             Empezar
           </Link>

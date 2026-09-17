@@ -7,7 +7,7 @@ export function CourseCard({ course }: { course: Course }) {
   return (
     <Link
       href={`/cursos/${course.slug}`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] transition hover:border-[var(--gold)]"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-card)] shadow-sm transition hover:border-[var(--muted)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-[var(--bg-elevated)]">
         <Image

@@ -9,11 +9,11 @@ export function Footer() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
             <Image
-              src="/brand/logo-clase-a-studio.jpg"
+              src="/brand/logo-clase-a-studio-black.png"
               alt="CLASE A STUDIO"
               width={56}
               height={56}
-              className="h-14 w-14 rounded-md object-contain bg-black"
+              className="h-14 w-14 rounded-md object-contain bg-transparent"
             />
             <span className="font-display text-sm font-semibold tracking-[0.12em] text-[var(--cream)]">
               CLASE A STUDIO

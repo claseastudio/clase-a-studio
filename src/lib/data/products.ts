@@ -10,7 +10,7 @@ export const products: Product[] = [
     price: 89000,
     category: "Digital",
     featured: true,
-    accent: "#C9A227",
+    accent: "#1d1d1f",
     ejemplo: true,
     features: [
       "12 plantillas editables (Notion / PDF, ejemplo)",
@@ -33,7 +33,7 @@ export const products: Product[] = [
     price: 119000,
     category: "Digital",
     featured: true,
-    accent: "#E8D5A3",
+    accent: "#6e6e73",
     ejemplo: true,
     features: [
       "Framework de oferta en 5 pasos",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     price: 45000,
     category: "Herramienta",
     featured: false,
-    accent: "#A68B2C",
+    accent: "#424245",
     ejemplo: true,
     features: [
       "Plantilla semanal de foco",
@@ -79,7 +79,7 @@ export const products: Product[] = [
     price: 159000,
     category: "Brand kit",
     featured: true,
-    accent: "#D4AF37",
+    accent: "#86868b",
     ejemplo: true,
     features: [
       "Guía de estilo resumida",

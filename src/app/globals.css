@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0b0b0b;
-  --bg-elevated: #12100e;
-  --bg-card: #161310;
-  --cream: #f5f0e6;
-  --cream-soft: #e8e0d0;
-  --gold: #c9a227;
-  --gold-soft: #e8d5a3;
-  --muted: #a89f8f;
-  --muted-2: #6f675c;
-  --border: #2a241c;
+  --bg: #ffffff;
+  --bg-elevated: #f5f5f7;
+  --bg-card: #ffffff;
+  --cream: #1d1d1f;
+  --cream-soft: #424245;
+  --gold: #1d1d1f;
+  --gold-soft: #6e6e73;
+  --muted: #6e6e73;
+  --muted-2: #86868b;
+  --border: #d2d2d7;
   --background: var(--bg);
   --foreground: var(--cream);
 }
@@ -29,17 +29,20 @@ html {
 body {
   background: var(--bg);
   color: var(--cream);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, var(--font-geist-sans), sans-serif;
   min-height: 100vh;
 }
 
 .font-display {
-  font-family: var(--font-geist-sans), Georgia, "Times New Roman", serif;
-  letter-spacing: -0.01em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, var(--font-geist-sans), sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 600;
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--gold) 40%, transparent);
+  background: color-mix(in srgb, #86868b 28%, transparent);
   color: var(--cream);
 }
 

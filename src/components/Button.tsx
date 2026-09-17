@@ -5,11 +5,11 @@ type Variant = "primary" | "secondary" | "ghost";
 
 const styles: Record<Variant, string> = {
   primary:
-    "bg-[var(--gold)] text-[var(--bg)] hover:bg-[var(--gold-soft)] border border-transparent",
+    "bg-[var(--gold)] text-[var(--bg)] hover:bg-[var(--cream-soft)] border border-transparent",
   secondary:
-    "border border-[var(--gold)] text-[var(--gold)] hover:bg-[color-mix(in_srgb,var(--gold)_12%,transparent)]",
+    "border border-[var(--border)] text-[var(--cream)] hover:bg-[var(--bg-elevated)]",
   ghost:
-    "border border-[var(--border)] text-[var(--cream)] hover:border-[var(--gold)]",
+    "border border-[var(--border)] text-[var(--cream)] hover:bg-[var(--bg-elevated)]",
 };
 
 const base =

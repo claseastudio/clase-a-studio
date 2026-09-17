@@ -41,8 +41,8 @@ export default function AsesoriasPage() {
               key={tier.slug}
               className={`flex flex-col rounded-2xl border p-6 ${
                 tier.featured
-                  ? "border-[var(--gold)] bg-[var(--bg-card)] shadow-[0_0_0_1px_color-mix(in_srgb,var(--gold)_30%,transparent)]"
-                  : "border-[var(--border)] bg-[var(--bg-card)]"
+                  ? "border-[var(--cream)] bg-[var(--bg-card)] shadow-sm"
+                  : "border-[var(--border)] bg-[var(--bg-card)] shadow-sm"
               }`}
             >
               {tier.featured && (
@@ -79,7 +79,7 @@ export default function AsesoriasPage() {
                   href={CALENDLY_PLACEHOLDER}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-[var(--gold)] px-5 py-2.5 text-sm font-semibold text-[var(--bg)] transition hover:bg-[var(--gold-soft)]"
+                  className="inline-flex items-center justify-center rounded-full bg-[var(--gold)] px-5 py-2.5 text-sm font-semibold text-[var(--bg)] transition hover:bg-[var(--cream-soft)]"
                 >
                   {tier.ctaLabel} (Calendly)
                 </a>
@@ -87,7 +87,7 @@ export default function AsesoriasPage() {
                   href={WHATSAPP_PLACEHOLDER}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-semibold text-[var(--cream)] transition hover:border-[var(--gold)]"
+                  className="inline-flex items-center justify-center rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-semibold text-[var(--cream)] transition hover:bg-[var(--bg-elevated)]"
                 >
                   WhatsApp (placeholder)
                 </a>
